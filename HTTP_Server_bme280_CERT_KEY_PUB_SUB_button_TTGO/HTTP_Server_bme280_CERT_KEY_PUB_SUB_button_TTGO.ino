@@ -12,16 +12,16 @@
 #include <SPI.h>
 #include <string.h>
 
-#define BOT_TOKEN "6529963600:AAGqhhalfC66JXRlbIHYvebBx-0rPZT9Dus"
-#define CHAT_ID "836456379"
+#define BOT_TOKEN "***"
+#define CHAT_ID "***"
 FastBot bot(BOT_TOKEN);
 
 #include <esp_task_wdt.h>
 #define WDT_TIMEOUT 120  //сек
 
-const char* ssid = "dlink";
-const char* password = "538stm32";
-const char* mqtt_server = "mqtt.cloud.yandex.net";
+const char* ssid = "***";
+const char* password = "***";
+const char* mqtt_server = "***";
 const int mqtt_port = 8883;
 uint8_t LED = 15;    // Номер вывода МК для подключения LED/реле включения увлажнителя
 uint8_t BUTTON = 2;  // Номер вывода МК для подключения кнопки включения увлажнителя
